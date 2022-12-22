@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    list-style: none;
+    /* color: rgb(156, 37, 69); */
+    font-weight: 700;
+}
+
+body {
+    background: -webkit-linear-gradient(
+            120deg,
+            rgb(137, 187, 244) 20%,
+            rgba(0, 0, 255, 0.5) 50%
+        )
+        no-repeat;
+    background: -moz-linear-gradient(
+            120deg,
+            rgb(137, 187, 244) 20%,
+            rgba(0, 0, 255, 0.5) 50%
+        )
+        no-repeat;
+    background: -o-linear-gradient(
+            120deg,
+            rgb(137, 187, 244) 20%,
+            rgba(0, 0, 255, 0.5) 50%
+        )
+        no-repeat;
+    background: linear-gradient(
+            120deg,
+            rgb(137, 187, 244) 20%,
+            rgba(0, 0, 255, 0.5) 50%
+        )
+        no-repeat;
+    min-height: 100vh;
+    /* background-size: 300%;
+    animation: bg 5s infinite ease-in-out alternate; */
+}
+
+.container {
+    width: 80%;
+    background-color: transparent;
+    border-radius: 1rem;
+    box-shadow: -5px -5px 30px rgba(0, 0, 255, 0.5),
+        5px 5px 30px rgba(255, 255, 255, 1);
+    margin: 6rem auto;
+    padding: 4rem;
+}
+
+#btn {
+    background: transparent;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    outline: 2px solid rgba(200, 20, 150, 1);
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, outline 0.5s;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+#btn:hover {
+    background-color: #fff;
+    /* color: rgb(137, 187, 244); */
+    outline: none;
+}
+
+h1 {
+    padding: 0.5rem 0;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+@keyframes bg {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
